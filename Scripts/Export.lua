@@ -222,7 +222,7 @@ function LuaExportAfterNextFrame()
 		-- vel.x, vel.y, vel.z, ang_vel.x, ang_vel.y, ang_vel.z, aoa, ss
 	)))
 	
-	-- socket.try(MySocket:send(string.format("ss = %.2f", ss))) -- NOT working in F/A-18C!!! (but, not problem in Su-25T)
+	-- socket.try(MySocket:send(string.format("ss = %.2f", ss))) -- NOT working in F/A-18C!!! (but, no problem in Su-25T)
 
 end
 
